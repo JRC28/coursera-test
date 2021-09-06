@@ -10,19 +10,19 @@ h1{
 	font-size: 27px;
 	font-family: arial;
 	text-align: center;
-	color: rgb(0, 0, 0);
+	color: #000000;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 p{
 	padding: 15px 5px 0px 5px;
-	font-family: georgia sans-serif;
+	font-family: Cursive;
 	font-size: 16px;
 	position: relative;
 }
 
 .section{
-	background-color: rgb(150, 150, 150);
+	background-color: #969696;
 	border: 2px solid black;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -39,21 +39,22 @@ span{
 	text-align: center;
 	float: right; top: 0; right: 0; margin: 0;
 	position: absolute;
+	font-family:Arial;
 }
 
 #c1{
-	background-color: rgb(250, 150, 150);
-	color: rgb(0,0, 0);
+	background-color: #fa9696;
+	color: #000000;
 }
 
 #c2{
-	background-color: rgb(200, 200, 100);
-	color: rgb(250, 250, 250);
+	background-color: #CC0000;
+	color: #FFFFFF;
 
 }
 #c3{
-	background-color: rgb(200, 200, 100);
-	color: rgb(0, 0, 0);
+	background-color: #c8c864;
+	color: #000000;
 }
 }
 
