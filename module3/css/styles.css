@@ -10,8 +10,7 @@ h1 {
 }
 
 body {
-  background-image: url("background.jpg");
-  background-color: #FEF5CA;
+  background-color: #0CB7F2;
 
 }
 
@@ -31,7 +30,7 @@ p {
 
 section {
   border: 1px solid black;
-  background-color: #00FF99;
+  background-color: #E60026;
   width: 100%;
   height: auto;
   font-family: Helvetica;
@@ -65,7 +64,7 @@ section {
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FF1439;
+  background-color: #90EE90;
 }
 
 #sushi {
@@ -78,8 +77,8 @@ section {
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  background-color: #6495ED;
-  color: white;
+  background-color: #FC5F06;
+  color: #000000;
   padding: 5px;
 }
 
@@ -138,4 +137,36 @@ hr {
 .item {
   color: white;
   font-size: 1.2em;
+}
+
+@media(min-width: 992px)
+{
+  .col-lg-4{
+    width: 33.33%;
+    float: left;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+  .col-md-6{
+    width: 50%;
+    float: left;
+  }
+  .col-md-12{
+    width: 100%;
+    float: left;
+  }
+}
+
+@media(max-width: 767px)
+{
+  .col-lg-12{
+    float: left;
+    width: 100%;
+  }
+}
+
+#home {
+  margin-bottom: 30px;
 }
